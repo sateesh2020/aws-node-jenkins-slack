@@ -1,0 +1,35 @@
+{
+  "name": "aws-node-jenkins-slack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sateesh2020/aws-node-jenkins-slack.git"
+  },
+  "keywords": [
+    "AWS",
+    "Node",
+    "Jenkins",
+    "Slack",
+    "CI",
+    "CB"
+  ],
+  "author": "Satheesh Valluru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sateesh2020/aws-node-jenkins-slack/issues"
+  },
+  "homepage": "https://github.com/sateesh2020/aws-node-jenkins-slack#readme",
+  "dependencies": {
+    "express": "4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "should": "^11.1.1",
+    "supertest": "^2.0.1"
+  }
+}
