@@ -1,7 +1,7 @@
 var app = require('express')()
 
 app.get('/',function(req,res) {
-  res.send("Hello World")
+  res.send("Hurray everything is working fine");
 })
 
 app.listen(3000)
